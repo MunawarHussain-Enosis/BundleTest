@@ -1,0 +1,32 @@
+{
+  "name": "bundletest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shakil",
+  "license": "ISC",
+  "jspm": {
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.7.4",
+      "angular-ui-router": "npm:angular-ui-router@^1.0.20",
+      "lodash": "npm:lodash@^4.17.10",
+      "text": "github:systemjs/plugin-text@^0.0.11"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "jspm": "^0.16.53"
+  },
+  "dependencies": {
+    "eslint": "^5.5.0"
+  }
+}
